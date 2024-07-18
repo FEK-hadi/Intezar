@@ -5,9 +5,9 @@ const yesBtn = document.querySelector(".yes-btn");
 const noBtn = document.querySelector(".no-btn");
 
 yesBtn.addEventListener("click", () => {
-  question.innerHTML = "Yay WUHUU 🥳🥳🥳, LETS DECIDE THE DATE!";
+  question.innerHTML = "";
   gif.src =
-    "https://media.giphy.com/media/Xv0aLD5YZyLvI2l4ts/giphy.gif";
+    "https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExN2VyNG53YmpvdGpvb2N1dGFxbHQydW1nOGExanRzcDd0Z3ljcnEzeSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/xUA7bf3sHeSuIKF1mg/giphy.gif";
 });
 
 noBtn.addEventListener("mouseover", () => {
