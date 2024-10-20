@@ -138,10 +138,10 @@ yesBtn.addEventListener("click", () => {
         );
     }, 300);
     
-    // Stop fireworks after 3 seconds
+    // Stop fireworks after 5 seconds
     setTimeout(() => {
         clearInterval(intervalId);
-    }, 3000);
+    }, 5000);
     
     setTimeout(() => {
         messageContainer.classList.add("visible");
