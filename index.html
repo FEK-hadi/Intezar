@@ -3,18 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alert For You</title>
-    <link rel="stylesheet" href="style.css"/>
+    <meta name="description" content="A personal message page">
+    <title>I miss you</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preload" href="https://tenor.com/embed.js" as="script">
 </head>
 <body>
-    <div class="wrapper">
-        <h2 class="question">Open thiss MALAYKAAAAA HEHE</h2>
-        <img class="gif" alt="gif" src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExNXNwdXc0MDVoNjk3NnFtdDNmeXllbnlibW5oMGo4bjdoN3poMHFmMCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/l1Et9lUetXAoKD6nK/giphy.gif"/>
-        <div class="btn-group">
-            <button class="yes-btn">Yes</button>
-            <button class="no-btn">No</button>
+    <main class="wrapper">
+        <header>
+            <h1 class="question">Please come back, I am still waiting for you Yusra</h1>
+            <h2 class="follow-up-question">Are you coming back?</h2>
+        </header>
+        
+        <div class="tenor-gif-embed" 
+             data-postid="26563993" 
+             data-share-method="host" 
+             data-aspect-ratio="1.78771" 
+             data-width="100%"
+             loading="lazy"
+             role="img"
+             aria-label="Animated GIF">
+            <a href="https://tenor.com/view/cagatay-ulusoy-hakan-medcezir-gif-26563993">
+                Cagatay Ulusoy Hakan GIF
+            </a>
         </div>
-    </div>
-    <script src="script.js"></script>
+
+        <div class="btn-group" role="group" aria-label="Response options">
+            <button class="yes-btn" type="button" aria-label="Yes">Yes</button>
+            <button class="no-btn" type="button" aria-label="No">No</button>
+        </div>
+
+        <!-- New message button (hidden by default) -->
+        <div class="message-button-container" style="display: none;">
+            <button class="message-btn" type="button" aria-label="Read special message">
+                Please click here to read the message
+            </button>
+        </div>
+    </main>
+
+    <script src="script.js" defer></script>
+    <script src="https://tenor.com/embed.js" async></script>
 </body>
 </html>
